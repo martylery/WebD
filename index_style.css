@@ -12,7 +12,7 @@ body {
 }
 
 canvas {
-	z-index: 0;
+	/*z-index: 0;*/
 	border: 1px solid black;
 	height: 300px;
 	width: 500px;
@@ -111,16 +111,17 @@ canvas {
 }
 
 #contents {
+	/*border: 2px solid white;*/
+	background-color:black;
 	display: block;
 	position: relative;
 	width: 50%;
-	height: 80%;
+	height: 95%;
 	margin: 0 auto;
-	border: 2px solid white;
 }
 
 #main_window {
-	background-color: black;
+	/*background-color: black;*/
 	position: relative;
 	height: 2500px;
 	width: 1510px;
@@ -131,23 +132,70 @@ canvas {
 }
 
 #left-bar {
+	/*border: 2px solid white;*/
 	position: absolute;
 	display: block;
-	border: 2px solid white;
 	margin-left: 10px;
 	width: 350px;
-	height: 78.745%;
+	/*height: 78.745%;*/
+	height: 93.5%;
 }
+
+#new-artists {
+	/*border: 2px solid red;*/
+	background-color: black;
+	position: relative;
+	width: 345px;
+	height: 49.5%;
+	margin-top: -0.55%;
+}
+
+#new-releases {
+	/*border: 2px solid red;*/
+	background-color: black;
+	position: relative;
+	width: 345px;
+	height: 49.5%;
+	margin-top: 5.7%;
+}
+
+
+
 
 #right-bar{
 	position: absolute;
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 	width: 350px;
-	height: 78.745%;
+	/*height: 78.745%;*/
+	height: 93.5%;
 	display: block;
 	margin-left: 1145px;
-
 }
+
+#highlights {
+	/*border: 2px solid red;*/
+	background-color: black;
+	position: relative;
+	margin-top: -0.55%;
+	height: 20%;
+}
+
+#upcoming-music-events {
+	/*border: 2px solid red;*/
+	background-color: black;
+	margin-top: 5.7%;
+	height: 39%;
+}
+
+#upcoming-arts-events {
+	/*border: 2px solid red;*/
+	background-color: black;
+	margin-top: 5.7%;
+	height: 39%;
+}
+
+
+
 
 
 #footer {
