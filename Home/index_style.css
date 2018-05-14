@@ -150,11 +150,44 @@ h3 {
 }
 
 #new-artists {
+	/*border: 2px dotted white;*/
 	background-color: black;
 	position: relative;
 	width: 345px;
 	height: 1190px;
 	padding-top: 1px;
+}
+
+#artists-releases {
+	list-style-type: none;
+}
+
+#artists-releases li {
+	/*border: 2px dotted red;*/
+	height: 150px;
+	width: 270px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	overflow: hidden;
+}
+#artists-releases li img {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#artists-releases li img:hover {
+	opacity: 0.5;
+}
+
+h5 {
+	color: white;
+	font-size: 15px;
+	/*text-align: center;*/
+	margin-top: 20px;
+	text-transform: uppercase;
 }
 
 #new-releases {
@@ -163,6 +196,9 @@ h3 {
 	width: 345px;
 	height: 1168px;
 }
+
+
+
 
 
 
@@ -205,6 +241,35 @@ h3 {
 }
 
 
+#events {
+	list-style-type: none;
+}
+
+#events li {
+	/*border: 2px dotted red;*/
+	height: 250px;
+	width: 250px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#events li img {
+	position: relative;
+	display: block;
+	max-height: 90%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+
+#events h3 {
+	color: white;
+	font-size: 20px;
+}
+
+#events li img:hover {
+	opacity: 0.5;
+}
 
 
 
