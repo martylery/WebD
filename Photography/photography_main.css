@@ -364,19 +364,149 @@ h6 {
 
 
 
+
 #footer {
-	margin: 0 auto;
-	height: 300px;
 	background-color: black;
-	position: relative;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
+	/*width: 100%;*/
+	width: auto;
+	height: 440px;
 }
 
+#footer-img {
+	/*border: 2px dotted red;*/
+	position: relative;
+	height: 15%;
+	text-align: center;
+}
+
+#footer-img img {
+	/*border: 2px dotted blue;*/
+	position: relative;
+	/*max-width: 100%;*/
+	opacity: 0.4;
+	width: 450px;
+	max-height: 80%;
+	margin-top: 10px;
+}
+
+#footer-content {
+	margin: 0 auto;
+	/*border: 2px dotted red;*/
+	position: relative;
+	height: 70%;
+	width: 1000px;
+	/*overflow: hidden;*/
+}
+
+#footer-content ul {
+	list-style-type: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#footer-content ul li {
+	/*border: 2px dotted green;*/
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: 80%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#footer-content ul li:nth-child(1) {
+	border-left: 1px dotted #141414;
+	margin-top: 40px;
+}
+
+#footer-content ul li:nth-child(3) {
+	border-right: 1px dotted #141414;
+}
+
+
+#subscribe-header {
+	position: absolute;
+	color: #999;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#footer-content ul li form {
+	position: absolute;
+	width: 200px;
+	margin-top: 45px;
+	margin-left: 20px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #555
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #171717;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #090909;
+}
+
+#colab-header {
+	position: absolute;
+	color: #939393;
+	text-transform: uppercase;
+	margin-top: 10px; 
+	margin-left: 45px;
+}
+
+#colab-body {
+	/*border: 2px dotted red;*/
+	position: absolute;
+	margin-top: 40px;
+	height: 210px;
+	width: 90%;
+	left: 15px;
+	color: #939393;
+	text-align: center;
+}
+/**/
+#footer-image {
+	position: relative;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#footer-image img {
+	position: relative;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+#footer-image img:hover {
+	opacity: 0.6;
+}
 #credits {
 	position:relative;
-	color: white;
+	color: #777;
+	margin-top: 10px;
 	text-align: center;
-	font-size: 20px;
-	/*padding-top: 17%;*/
+	font-size: 17px;
+	
 }
